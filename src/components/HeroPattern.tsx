@@ -172,7 +172,7 @@ export function HeroPattern() {
             y2: [479 * 2, 479],
           }}
           transition={{
-            duration: 5,
+            duration: 4,
             repeat: Infinity,
             ease: 'linear',
           }}
