@@ -8,7 +8,7 @@
 
 - [x] Contato
 
-- [ ] Footer
+- [x] Footer
 
 - [ ] WhatsApp fixed button
 
