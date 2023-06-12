@@ -2,11 +2,9 @@
 
 - [x] Greetings
 
-- [ ] Carousel autoplay de ... (projetos?)
+- [x] Projetos
 
-- [ ] Projetos
-
-- [ ] Tecnologias
+- [x] Tecnologias
 
 - [ ] Contato
 

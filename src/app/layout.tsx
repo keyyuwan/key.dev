@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.className} bg-zinc-950 text-zinc-50`}>
+      <body className={`${inter.className} bg-zinc-950 text-zinc-100`}>
         <Header />
         {children}
       </body>

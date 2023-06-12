@@ -1,10 +1,10 @@
-import { Mail } from 'lucide-react'
+import { ChevronsDown, Mail } from 'lucide-react'
 import Image from 'next/image'
 import { HeroPattern } from './HeroPattern'
 
 export function Greetings() {
   return (
-    <section className="relative flex justify-center overflow-hidden pb-16 pt-20">
+    <section className="relative h-[calc(100vh-64px)] overflow-hidden pt-24 md:flex md:h-[calc(100vh-80px)] md:flex-col md:items-center md:justify-center md:pt-0">
       <div className="relative z-10 flex max-w-xl flex-col items-center justify-center px-8">
         <div className="flex flex-col items-center justify-center gap-4">
           <Image
@@ -34,12 +34,11 @@ export function Greetings() {
           <Mail size={16} />
           Contate-me
         </a>
-
-        {/* Resolvendo problemas através da tecnologia e construindo aplicações
-            de alto valor */}
       </div>
 
       <HeroPattern />
+
+      <ChevronsDown className="mt-8 w-full text-center" />
     </section>
   )
 }
