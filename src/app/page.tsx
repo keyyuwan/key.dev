@@ -1,3 +1,4 @@
+import { Contact } from '@/components/Contact'
 import { Greetings } from '@/components/Greetings'
 import { Projects } from '@/components/Projects'
 import { TechStack } from '@/components/TechStack'
@@ -8,6 +9,7 @@ export default function Home() {
       <Greetings />
       <Projects />
       <TechStack />
+      <Contact />
     </main>
   )
 }

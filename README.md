@@ -6,7 +6,7 @@
 
 - [x] Tecnologias
 
-- [ ] Contato
+- [x] Contato
 
 - [ ] Footer
 

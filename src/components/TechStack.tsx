@@ -9,7 +9,7 @@ export function TechStack() {
               alt="ReactJS"
               className="h-auto w-12 opacity-20"
             />
-            <h3 className="absolute left-0 top-[50%] bg-gradient-to-br from-zinc-100 to-zinc-700 bg-clip-text text-xl font-semibold text-transparent">
+            <h3 className="absolute left-0 top-[50%] bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-xl font-semibold text-transparent">
               Front-end:
             </h3>
           </div>
@@ -31,7 +31,7 @@ export function TechStack() {
               alt="ReactJS"
               className="h-auto w-12 opacity-20"
             />
-            <h3 className="absolute left-0 top-[50%] bg-gradient-to-br from-zinc-100 to-zinc-700 bg-clip-text text-xl font-semibold text-transparent">
+            <h3 className="absolute left-0 top-[50%] bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-xl font-semibold text-transparent">
               Back-end:
             </h3>
           </div>
