@@ -8,7 +8,7 @@ export function Projects() {
         <span className="text-purple-500">alto valor</span>
       </h2>
 
-      <div className="mt-4 grid grid-cols-1 gap-2 md:mt-8 md:grid-cols-2 md:gap-4">
+      <div className="mt-4 grid grid-cols-1 gap-2 md:mx-auto md:mt-10 md:max-w-4xl md:grid-cols-2 md:gap-4">
         <Project />
         <Project />
         <Project />

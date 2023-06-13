@@ -3,7 +3,7 @@ import { Input } from './Form/Input'
 
 export function Contact() {
   return (
-    <section id="contact" className="my-10 px-8 md:my-16">
+    <section id="contact" className="px-8 py-10 md:py-16">
       <div className="flex flex-col items-center gap-1">
         <span className="text-center text-lg font-semibold text-purple-500 md:text-xl">
           Contate-me
@@ -35,9 +35,7 @@ export function Contact() {
 
         <div className="flex flex-col gap-4 md:flex-row">
           <a
-            href=""
-            target="_blank"
-            rel="noreferrer"
+            href="https://wa.me/+554199946727"
             className="flex h-12 w-full items-center justify-center gap-4 rounded-sm border border-zinc-800 bg-zinc-900 transition-colors hover:border-purple-500"
           >
             <img
