@@ -3,7 +3,7 @@ import { Input } from './Form/Input'
 
 export function Contact() {
   return (
-    <section className="px-8 pb-10">
+    <section id="contact" className="px-8 pb-10">
       <div className="flex flex-col items-center gap-1">
         <span className="text-center text-lg font-semibold text-purple-500">
           Contate-me
