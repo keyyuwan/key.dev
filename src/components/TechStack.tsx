@@ -1,15 +1,15 @@
 export function TechStack() {
   return (
-    <section className="px-8 py-12">
-      <div className="flex flex-col gap-4">
-        <div className="rounded-sm border border-zinc-800 bg-zinc-900 p-4">
-          <div className="relative">
+    <section className="mt-12 px-8 md:mt-16">
+      <div className="flex w-full flex-col gap-4 md:flex-row">
+        <div className="w-full rounded-sm border border-zinc-800 bg-zinc-900 p-4 md:text-center">
+          <div className="relative md:flex md:items-center md:justify-center">
             <img
               src="/react.png"
               alt="ReactJS"
-              className="h-auto w-12 opacity-20"
+              className="h-auto w-12 opacity-20 md:w-16"
             />
-            <h3 className="absolute left-0 top-[50%] bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-xl font-semibold text-transparent">
+            <h3 className="absolute left-0 top-[50%] bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-xl font-semibold text-transparent md:left-[50%] md:translate-x-[-50%] md:text-2xl">
               Front-end:
             </h3>
           </div>
@@ -24,14 +24,14 @@ export function TechStack() {
           </ul>
         </div>
 
-        <div className="rounded-sm border border-zinc-800 bg-zinc-900 p-4">
-          <div className="relative">
+        <div className="w-full rounded-sm border border-zinc-800 bg-zinc-900 p-4 md:text-center">
+          <div className="relative md:flex md:items-center md:justify-center">
             <img
               src="/node.png"
-              alt="ReactJS"
-              className="h-auto w-12 opacity-20"
+              alt="Node.js"
+              className="h-auto w-12 opacity-20 md:w-16"
             />
-            <h3 className="absolute left-0 top-[50%] bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-xl font-semibold text-transparent">
+            <h3 className="absolute left-0 top-[50%] bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-xl font-semibold text-transparent md:left-[50%] md:translate-x-[-50%] md:text-2xl">
               Back-end:
             </h3>
           </div>

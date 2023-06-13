@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="flex h-16 items-center border-b border-zinc-800 md:h-20">
       <div className="mx-auto flex h-full w-full max-w-6xl items-center justify-between px-8">
-        <img src="/logo.svg" alt="" className="h-auto w-12" />
+        <img src="/logo.svg" alt="" className="h-auto w-8 md:w-10" />
 
         <nav className="flex items-center gap-2">
           <NavLink

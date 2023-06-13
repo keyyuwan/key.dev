@@ -10,8 +10,6 @@
 
 - [x] Footer
 
+- [x] Responsive
+
 - [ ] WhatsApp fixed button
-
-## Helpers
-
-Tailwind Breakpoints: https://tailwindcss.com/docs/responsive-design
